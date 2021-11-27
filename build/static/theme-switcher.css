@@ -1,0 +1,16 @@
+body{
+    --theme-background-colour-dark: black;
+    --theme-background-colour-light: white;
+    --theme-background-colour-accent: burlywood;
+}
+body[data-theme="red-green"]{
+    --theme-background-colour-dark: darkred;
+    --theme-background-colour-light: olive;
+    --theme-background-colour-accent: darkkhaki;
+}
+
+body[data-theme="yellow-blue"]{
+    --theme-background-colour-dark: navy;
+    --theme-background-colour-light: khaki;
+    --theme-background-colour-accent: goldenrod;
+}

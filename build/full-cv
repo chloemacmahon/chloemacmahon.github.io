@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- https://favicon.io/emoji-favicons/money-mouth-face/ -->
+        <link href="/static/favicon.ico" rel="icon">
+
+        <link href="/static/style.css" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/static/javascript/themeswitch.js" defer></script>
+        <!--<script src="https://gist.github.com/chloemacmahon/0ecd50f29805cf1d808e5e5e7677debb.js"></script>-->
+        <title>Chloe Mac Mahon</title>
+
+    </head>
+
+    <body data-theme onload="themeSwitch()">
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+            <a class="navbar-brand" href="/"><span class="light-font" style="font-size: xx-large;">Chloe </span><span class="dark-font" style="font-size: xx-large;"> Mac Mahon</span></a>
+            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto mt-2">
+                        <li class="nav-item"><a class="nav-link" href="/"><p class="dark-font">Home</p></a></li>
+                        <li class="nav-item"><a class="nav-link" href="/java-info">Java</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/python-info">Python</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/c-sharp-info">C#</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/full-cv">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/interesting">Interesting Facts</a></li>
+                    </ul>
+            </div>
+        </nav>
+        
+
+        <main class="container p-5 container-xl">
+            <div class="theme">
+                <input type="checkbox" name="" id ="theme-btn">
+                <div class="box">
+                    <i><img src="/static/Images/colourwheel.png"></i>
+                    <i></i>
+                </div>
+            </div>
+            
+
+<br>
+<div>
+    <div class="badge-base LI-profile-badge" style="margin:auto;" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="chloe-mac-mahon-2795aa1a9" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://za.linkedin.com/in/chloe-mac-mahon-2795aa1a9?trk=profile-badge"></a></div>
+                  
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    </div>
+    <br>
+    <div>
+        <iframe style="width: 100%; height: auto;" src="/static/docs/Resume-Chloe-Mac-Mahon.pdf"></iframe>
+    </div>
+    <br>
+    <div class="card">
+        <div class="container light" >
+            <h2 class="dark-font">Download CV</h2>
+            <a href="/static/docs/Resume-Chloe-Mac-Mahon.pdf" download="">
+                <img class="icon" style="width: 10%;" src="/static/Images/download_icon1.png">
+            </a>
+        </div>
+       
+    </div>
+
+        </main>
+
+        <footer class="small text-center text-muted">
+            Designed by Chloe Mac Mahon 
+            <ul class="navbar-nav ml-auto mt-2">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            </ul>
+        </footer>
+
+    </body>
+
+</html>
