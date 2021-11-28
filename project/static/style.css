@@ -107,7 +107,7 @@ h1
 .card
 {
     width: 100%;
-    padding-top: 50%;
+    height: 100%;
     position: relative;
     cursor: pointer;
     justify-content: space-between;
